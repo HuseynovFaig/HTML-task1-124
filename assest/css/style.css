@@ -1,0 +1,79 @@
+.header {
+    background-color: orange;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.nav-links a:hover {
+    transform: translateY(10px);
+    transition: .8s ease;
+}
+
+.nav-links {
+    display: flex;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1 span {
+    color: orange;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+
+button {
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: orange;
+    padding: 7px 6px 5px;
+    text-align: center;
+    color: white;
+}
+
+.left-side{
+    justify-content: center;
+    padding-left: 10px;
+}
